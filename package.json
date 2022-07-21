@@ -1,0 +1,29 @@
+{
+  "name": "mdx-storybook-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^1.6.22",
+    "@mdx-js/runtime": "^1.6.22",
+    "@types/mdx-js__react": "^1.5.5",
+    "@types/react": "^17.0.38",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@storybook/addon-actions": "^6.4.17",
+    "@storybook/addon-essentials": "^6.4.17",
+    "@storybook/addon-links": "^6.4.17",
+    "@storybook/builder-webpack5": "^6.4.17",
+    "@storybook/manager-webpack5": "^6.4.17",
+    "@storybook/react": "^6.4.17",
+    "babel-loader": "^8.2.3"
+  },
+  "keywords": []
+}
